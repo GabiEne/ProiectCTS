@@ -19,7 +19,7 @@ public class Main {
     comanda.platesteComanda();
     dietetic.platesteComanda();
     System.out.println(dietetic.sePoateAplicaReducere());
-   System.out.println(comanda.getState());
+    System.out.println(comanda.getState());
    // comanda.anuleazaComanda();
     Raport raport  = new Raport();
     raport.adaugaComanda(comanda);
